@@ -1,11 +1,11 @@
 d = int(input("Enter the day:"))
 m = int(input("Enter the month:"))
 y = int(input("Enter the year:"))
-if ((y % 4 == 0) and (y % 100 != 0)) or (y % 400 == 0):
-    if m == 2:
-        d1 = 29
-    elif m == 1 or m == 3 or m == 5 or m == 7 or m == 8 or m == 10 or m == 12:
-        d1 = 31
+if ((y%4==0)and(y%100!=0))or(y%400==0):
+    if m==2:
+        d1=29
+    elif m==1 or m==3 or m==5 or m==7 or m==8 or m==10 or m==12:
+        d1=31
     else:
         d1 = 30
 else:
